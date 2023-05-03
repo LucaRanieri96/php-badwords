@@ -21,8 +21,7 @@
 <body>
   <div class="container">
     <div class="d-flex">
-      <h3>Parola da censurare: "<?php echo $censoredWord;?>" </h3>
-      <div></div>
+      <h3>Parola da censurare: "<span style="color:rgb(255, 68, 0);"><?php echo $censoredWord;?></span>"</h3>
     </div>
     <div>
       <h2>Paragrafo da censurare</h2>
