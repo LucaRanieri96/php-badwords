@@ -10,10 +10,10 @@
 
 <body>
   <form action="myscript.php" method="post">
-    <label for="paragraph">Scrivi un paragrafo</label>
+    <label for="paragraph">Scrivi un paragrafo</label><br>
     <textarea id="paragraph" name="paragraph" rows="4" cols="50"></textarea>
-    <label for="word">Inserisci la parola da censurare:</label>
-    <input type="text" id="word" name="word"> <br>
+    <label for="word">Inserisci la parola da censurare:</label><br>
+    <input type="text" id="word" name="word"><br>
     <input type="submit" value="censura">
   </form>
 </body>
