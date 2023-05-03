@@ -13,15 +13,16 @@
 
 <body>
   <div class="container">
+    <h1 class="mb-4">Scrivi un paragrafo ed una parola da censurare</h1>
     <form action="myscript.php" method="post">
-      <label for="paragraph">Scrivi un paragrafo:</label>
+      <label for="paragraph"><strong>Scrivi un paragrafo:</strong></label>
       <div>
         <textarea id="paragraph" name="paragraph" rows="8" cols="100">Il paragrafo (o capoverso) è innanzitutto una porzione di testo formata da uno o più periodi e isolata da ciò che precede e ciò che segue. All’interno del paragrafo sono raggruppate porzioni di informazione omogenee, perciò il passaggio a un nuovo capoverso (il cosiddetto a capo) implica una pausa molto forte nel testo. 
         "paragrafo" in "La grammatica italiana" enciclopedia TRECCANI.
         </textarea>
       </div>
       <div>
-        <label for="word">Inserisci la parola da censurare:</label>
+        <label for="word"><strong>Inserisci la parola che vuoi censurare -> </strong></label>
         <input type="text" id="word" name="word">
       </div>
       <input type="submit" value="censura">
