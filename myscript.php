@@ -2,7 +2,7 @@
   
   $paragraph = $_POST["paragraph"];
   $censoredWord = $_POST["word"];
-  $newParagraph = str_replace($censoredWord, "***", $paragraph);
+  $newParagraph = str_replace($censoredWord, str_repeat('*', strlen($censoredWord)), $paragraph);
 
 ?>
 
