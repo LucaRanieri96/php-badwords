@@ -20,16 +20,18 @@
 <body>
   <div class="container">
     <div>
-      <h2>Paragrafo da censurare</h2>
-      <p><?php echo $paragraph; ?></p>
+      <h3>Parola da censurare: </h3>
+      <span><?php echo $censoredWord; ?></span>
     </div>
     <div>
-      <span>Parola da censurare: </span>
-      <span><?php echo $censoredWord; ?></span>
+      <h2>Paragrafo da censurare</h2>
+      <p><?php echo $paragraph; ?></p>
+      <h3>Lunghezza paragrafo: <?php echo strlen($paragraph);?> lettere</h3>
     </div>
     <div>
       <h2>Paragrafo censurato</h2>
       <p><?php echo $newParagraph; ?></p>
+      <h3>Lunghezza paragrafo: <?php echo strlen($newParagraph);?> lettere</h3>
     </div>
   </div>
 

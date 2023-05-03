@@ -15,7 +15,9 @@
     <form action="myscript.php" method="post">
       <label for="paragraph">Scrivi un paragrafo:</label>
       <div>
-        <textarea id="paragraph" name="paragraph" rows="8" cols="100">Il paragrafo (o capoverso) è innanzitutto una porzione di testo formata da uno o più periodi e isolata da ciò che precede e ciò che segue. All’interno del paragrafo sono raggruppate porzioni di informazione omogenee, perciò il passaggio a un nuovo capoverso (il cosiddetto a capo) implica una pausa molto forte nel testo.</textarea>
+        <textarea id="paragraph" name="paragraph" rows="8" cols="100">Il paragrafo (o capoverso) è innanzitutto una porzione di testo formata da uno o più periodi e isolata da ciò che precede e ciò che segue. All’interno del paragrafo sono raggruppate porzioni di informazione omogenee, perciò il passaggio a un nuovo capoverso (il cosiddetto a capo) implica una pausa molto forte nel testo. 
+        "paragrafo" in "La grammatica italiana" enciclopedia TRECCANI.
+        </textarea>
       </div>
       <div>
         <label for="word">Inserisci la parola da censurare:</label>
