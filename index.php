@@ -9,12 +9,11 @@
 </head>
 
 <body>
-  <form action="" method="post">
+  <form action="myscript.php" method="post">
     <label for="paragraph">Scrivi un paragrafo</label>
-    <textarea id="paragraph" name="paragraph" rows="4" cols="50" placeholder="At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.">
-    </textarea>
+    <textarea id="paragraph" name="paragraph" rows="4" cols="50"></textarea>
     <label for="word">Inserisci la parola da censurare:</label>
-    <input type="text" id="word" name="word">
+    <input type="text" id="word" name="word"> <br>
     <input type="submit" value="censura">
   </form>
 </body>
