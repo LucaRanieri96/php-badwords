@@ -9,6 +9,10 @@
 
             echo$paragraph ;
             echo strlen($paragraph);  
+
+            $newParagraph = str_replace($censoredWord, "*****", $paragraph);
+
+            echo$newParagraph;
         ?>
     </body>
 </html>
